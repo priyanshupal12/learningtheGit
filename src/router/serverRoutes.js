@@ -5,4 +5,4 @@ const router = express.Router();
 router.get('/', (req, res) => {
     const name = req;
     console.log(name);
-})
+});
