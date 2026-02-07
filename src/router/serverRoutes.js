@@ -11,3 +11,8 @@ router.get("/video", (req, res) => {
   const video = req.video;
   console.log(video);
 });
+
+router.get("/post", (req, res) => {
+  const video = req.video;
+  console.log(post);
+});
